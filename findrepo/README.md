@@ -1,70 +1,66 @@
-# Getting Started with Create React App
+# FindRepo
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este projeto é um aplicativo React que permite buscar repositórios no GitHub e adicioná-los a uma lista, garantindo que o mesmo repositório não seja adicionado mais de uma vez. Caso o repositório não seja encontrado, uma mensagem de erro será exibida.
 
-## Available Scripts
+## 🚀 Tecnologias Utilizadas
+- React.js
+- Styled Components
+- Axios (para consumo da API do GitHub)
 
-In the project directory, you can run:
+## 📦 Instalação e Execução
 
-### `npm start`
+### 1. Clone o repositório
+```sh
+git clone https://github.com/Cybervtx/react-dio/tree/main/findrepo
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 2. Acesse o diretório do projeto
+```sh
+cd findrepo
+```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 3. Instale as dependências
+```sh
+npm install
+# ou
+yarn install
+```
 
-### `npm test`
+### 4. Inicie o projeto
+```sh
+npm start
+# ou
+yarn start
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+O projeto será executado em `http://localhost:3000`.
 
-### `npm run build`
+## 🛠 Funcionalidades
+- **Buscar repositórios do GitHub:** Insira o nome do repositório no formato `usuario/repositorio` e clique no botão para buscar.
+- **Adicionar repositório à lista:** Se o repositório for encontrado e ainda não estiver na lista, ele será adicionado.
+- **Excluir repositórios:** É possível remover repositórios da lista.
+- **Mensagens de erro amigáveis:** Caso o repositório não seja encontrado, uma mensagem de erro será exibida.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 📌 Estrutura do Projeto
+```
+/src
+ ├── assets/       # Imagens e recursos visuais
+ ├── components/   # Componentes reutilizáveis (Input, Button, ItemRepo)
+ ├── services/     # Configuração do Axios para chamadas HTTP
+ ├── styles/       # Estilização global e estilos dos componentes
+ ├── App.js        # Componente principal do aplicativo
+ ├── index.js      # Ponto de entrada da aplicação
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 📝 Como Contribuir
+1. Faça um fork do projeto.
+2. Crie uma branch com sua feature: `git checkout -b minha-feature`
+3. Commit suas mudanças: `git commit -m 'Adicionando minha feature'`
+4. Faça um push para a branch: `git push origin minha-feature`
+5. Abra um Pull Request 🚀
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 📄 Licença
+Este projeto está sob a licença MIT. Sinta-se livre para usá-lo e modificá-lo! 🎉
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+Desenvolvido com ❤️ por [Diogo Caldas](https://github.com/diogovdcpa).
