@@ -42,3 +42,10 @@ Instalando o styled components
 ```bash
   yarn add styled-components
 ```
+
+## Crinado projeto react sem create-app
+Instalando o styled components
+
+```bash
+  yarn init -y
+```
