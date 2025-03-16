@@ -9,7 +9,7 @@ Uma calculadora simples, moderna e responsiva desenvolvida com React
 
 ## 🖼️ Captura de Tela
 
-![Calculadora](https://ibb.co/KSMQKXG)
+![Calculadora](https://i.ibb.co/sz0DW2P/calc.png)
 
 ## 🛠️ Tecnologias Utilizadas
 
