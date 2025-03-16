@@ -9,7 +9,7 @@ Uma calculadora simples, moderna e responsiva desenvolvida com React
 
 ## 🖼️ Captura de Tela
 
-![Calculadora](https://via.placeholder.com/600x300.png?text=Preview+da+Calculadora)
+![Calculadora](https://cdn-icons-png.flaticon.com/512/10310/10310245.png)
 
 ## 🛠️ Tecnologias Utilizadas
 
