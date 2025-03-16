@@ -20,7 +20,7 @@ Uma calculadora simples, moderna e responsiva desenvolvida com React
 1. Clone este repositório:
 
 ```bash
-  git clone https://github.com/Cybervtx/react-dio.git
+  git clone https://github.com/Cybervtx/react-dio/tree/main/calculadora
 ```
 
 2. Acesse o diretório do projeto:
